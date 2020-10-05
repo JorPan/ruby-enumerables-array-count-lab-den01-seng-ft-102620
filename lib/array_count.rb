@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |element|
-    element.includes? "o"
+    element.include?("o")
   end
 end
 
